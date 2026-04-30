@@ -669,3 +669,56 @@ body {
   color: #00f5ff;
   margin-top: 5px;
 }
+
+/* ================= FOOTER ================= */
+
+.footer {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 25px 60px;
+  margin-top: 80px;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LEFT SIDE */
+.footer-left p {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #94a3b8;
+  margin-bottom: 5px;
+}
+
+.footer-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #00f5ff;
+}
+
+/* RIGHT SIDE */
+.footer-right {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-right a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+/* HOVER EFFECT (cyber glow) */
+.footer-right a:hover {
+  color: #00f5ff;
+  text-shadow:
+    0 0 5px #00f5ff,
+    0 0 10px rgba(0,245,255,0.6);
+}
