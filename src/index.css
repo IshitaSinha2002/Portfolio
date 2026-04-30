@@ -151,6 +151,35 @@ body {
   z-index: 1;
 }
 
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;   
+}
+
+/* LEFT SIDE */
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-image {
+  flex-shrink: 0;
+  margin-left: auto;   
+}
+
+/* RIGHT SIDE IMAGE */
+.hero-image img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
 /* ================= EXPERIENCE SECTION ================= */
 
 .career {
