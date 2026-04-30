@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="career">
+    <section id="experience" className="career">
       <div className="career-inner">
 
         <h2 className="career-title">Work Experience</h2>
