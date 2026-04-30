@@ -3,9 +3,10 @@ import React from "react";
 const Experience = () => {
   return (
     <section className="career">
-      <h2 className="career-title">Work Experience</h2>
+        <div className="career-inner"></div>
+            <h2 className="career-title">Work Experience</h2>
 
-      <div className="timeline">
+            <div className="timeline">
 
         {/* LINE */}
         <div className="timeline-line"></div>

@@ -157,6 +157,12 @@ body {
   padding: 80px 60px;
 }
 
+/* CENTER WRAPPER */
+.career-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /* TITLE */
 .career-title {
   font-family: 'Space Grotesk', sans-serif;
@@ -164,37 +170,40 @@ body {
   font-size: 18px;
   letter-spacing: 0.1em;
   color: #00F5FF;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
-/* TIMELINE WRAPPER */
+/* TIMELINE */
 .timeline {
   position: relative;
-  padding-left: 40px;
+  width: 100%;
+  padding-left: 60px; /* space for line + dot */
 }
 
-/* VERTICAL LINE */
+/* SINGLE VERTICAL LINE */
 .timeline-line {
   position: absolute;
-  left: 10px;
+  left: 20px;   /* anchor */
   top: 0;
   width: 2px;
   height: 100%;
   background: linear-gradient(to bottom, #ff2e63, #00f5ff);
 }
 
-/* EACH ITEM */
+/* ITEM */
 .timeline-item {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
-/* DOT */
+/* DOT (PERFECTLY CENTERED ON LINE) */
 .timeline-dot {
   position: absolute;
-  left: -4px;
-  width: 12px;
-  height: 12px;
+  left: -44px;   /* EXACT same as line */
+  top: 8px;
+
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 
@@ -209,9 +218,9 @@ body {
 /* CARD */
 .timeline-card {
   background: transparent;
-  padding: 20px 25px;
+  padding: 25px 30px;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  max-width: 500px;
+  width: 100%;
   color: #FFFFFF;
 }
 
@@ -230,6 +239,7 @@ body {
   font-size: 11px;
   color: #94A3B8;
   margin-bottom: 10px;
+  letter-spacing: 0.05em;
 }
 
 /* ROLE */
@@ -237,7 +247,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
   color: #FFFFFF;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 /* COMPANY */
@@ -245,7 +255,7 @@ body {
   font-family: 'Epilogue', sans-serif;
   font-size: 13px;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 /* COMPANY COLORS */
@@ -262,21 +272,20 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   color: #CBD5E1;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* TAGS */
 .tags {
   margin-top: 15px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
 
 .tags span {
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
-  padding: 4px 8px;
+  padding: 4px 10px;
   border: 1px solid #444;
   color: #CBD5E1;
+  margin-right: 8px;
+  display: inline-block;
 }
