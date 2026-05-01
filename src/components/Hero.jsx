@@ -10,7 +10,7 @@ const Hero = () => {
           Results-driven Data Analyst skilled in Python, SQL, Power BI, and Tableau, with experience building end-to-end data solutions. Focused on turning complex data into actionable insights to drive business decisions.
         </p>
 
-        <button className="hero-btn">DOWNLOAD RESUME</button>
+        <button className="hero-btn" onClick={() => window.open('/resume.pdf', '_blank')}>VIEW RESUME</button>
       </div>
 
       <div className="hero-image">
