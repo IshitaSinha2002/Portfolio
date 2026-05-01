@@ -11,9 +11,29 @@ const Footer = () => {
         </div>
 
         <div className="footer-right">
-          <a href="#">LINKEDIN</a>
-          <a href="#">GITHUB</a>
-          <a href="#">EMAIL</a>
+          <a
+            href="https://www.linkedin.com/in/ishitasinha16/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LINKEDIN
+          </a>
+
+          <a
+            href="https://github.com/IshitaSinha2002"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GITHUB
+          </a>
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=ishitasinha16@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+        EMAIL
+        </a>
         </div>
 
       </div>
