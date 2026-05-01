@@ -17,7 +17,7 @@ const Projects = () => {
 
               {/* CARD 1 */}
               <div className="project-card pink">
-                <img src="public\CareerBloom.jpg" alt="project" />
+                <img src="/CareerBloom.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Career Bloom</h3>
@@ -32,7 +32,7 @@ const Projects = () => {
 
               {/* CARD 2 */}
               <div className="project-card cyan-border">
-                <img src="public\ResumeIQ.jpg" alt="project" />
+                <img src="/ResumeIQ.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Resume IQ</h3>
@@ -47,7 +47,7 @@ const Projects = () => {
 
               {/* CARD 3 */}
               <div className="project-card pink">
-                <img src="public\WattWise.jpg" alt="project" />
+                <img src="/WattWise.jpg" alt="project" />
 
                 <div className="project-content">
                     <h3>Watt Wise</h3>
@@ -62,7 +62,7 @@ const Projects = () => {
 
             {/* CARD 4 */}
               <div className="project-card cyan-border">
-                <img src="public\FitPredict.jpg" alt="project" />
+                <img src="/FitPredict.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Fit Predict</h3>
@@ -77,7 +77,7 @@ const Projects = () => {
 
               {/* CARD 5 */}
               <div className="project-card pink">
-                <img src="public\EmployeeBurnout.jpg" alt="project" />
+                <img src="/EmployeeBurnout.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Employee Burnout</h3>
@@ -90,7 +90,7 @@ const Projects = () => {
 
             {/* CARD 6 */}
               <div className="project-card cyan-border">
-                <img src="public\SmartLingo.jpg" alt="project" />
+                <img src="/SmartLingo.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Smart Lingo</h3>
@@ -105,7 +105,7 @@ const Projects = () => {
 
               {/* CARD 7 */}
               <div className="project-card pink">
-                <img src="public\CollegeAdmission.jpg" alt="project" />
+                <img src="/CollegeAdmission.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>College Admission</h3>
@@ -128,7 +128,7 @@ const Projects = () => {
             <div className="project-row">
             {/* CARD 1 */}
               <div className="project-card pink">
-                <img src="public\SentimentAnalysis.jpg" alt="project" />
+                <img src="/SentimentAnalysis.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Sentiment Analysis</h3>
@@ -143,7 +143,7 @@ const Projects = () => {
 
               {/* CARD 2 */}
               <div className="project-card cyan-border">
-                <img src="public\EmotionDetector.jpg" alt="project" />
+                <img src="/EmotionDetector.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Emotion Detection</h3>
@@ -158,7 +158,7 @@ const Projects = () => {
 
               {/* CARD 3 */}
               <div className="project-card pink">
-                <img src="public\FakeNews.jpg" alt="project" />
+                <img src="/FakeNews.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Fake News Detector</h3>
@@ -173,7 +173,7 @@ const Projects = () => {
 
               {/* CARD 4 */}
               <div className="project-card cyan-border">
-                <img src="public\NewsTopic.jpg" alt="project" />
+                <img src="/NewsTopic.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>News Topic Classifier</h3>
@@ -196,7 +196,7 @@ const Projects = () => {
 
               {/* CARD 1 */}
               <div className="project-card pink">
-                <img src="public\TravelNest.jpg" alt="project" />
+                <img src="/TravelNest.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Travel Nest</h3>
@@ -211,7 +211,7 @@ const Projects = () => {
 
                 {/* CARD 2 */}
               <div className="project-card cyan-border">
-                <img src="public\Chatify.jpg" alt="project" />
+                <img src="/Chatify.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Chatify</h3>
@@ -233,7 +233,7 @@ const Projects = () => {
 
               {/* CARD 1 */}
               <div className="project-card pink">
-                <img src="public\BehaviourChurn.jpg" alt="project" />
+                <img src="/BehaviourChurn.jpg" alt="project" />
 
                 <div className="project-content">
                   <h3>Behavioural Churn Radar Dashboard</h3>
