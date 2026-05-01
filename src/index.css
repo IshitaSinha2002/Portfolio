@@ -473,6 +473,7 @@ body {
   border: 1px solid rgba(255,255,255,0.15);
   overflow: hidden;
   box-sizing: border-box;
+  gap: 15px;
 }
 
 /* BORDER COLORS (same system as before) */
@@ -490,18 +491,21 @@ body {
   font-size: 16px;
   color: #FFFFFF;
   margin-bottom: 15px;
+  margin-left: 8px;
 }
 
 /* TAGS reuse your existing */
 .skill-card .tags span {
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 6px 12px;
+  padding-left: 2px;   
   border: 1px solid #444;
   color: #CBD5E1;
-  margin-right: 8px;
+  gap: 10px; 
   margin-bottom: 8px;
   display: inline-block;
+  margin-left: 8px;
 }
 
 .timeline {
