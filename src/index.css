@@ -276,6 +276,28 @@ body {
   letter-spacing: 0.05em;
 }
 
+.timeline-card.pink .tags span {
+  color: #ff2e63;
+  border-color: #ff2e63;
+}
+
+.timeline-card.cyan-border .tags span {
+  color: #00f5ff;
+  border-color: #00f5ff;
+}
+
+.timeline-card.pink .tags span:hover {
+  background: #ff2e63;
+  color: #000;
+  box-shadow: 0 0 10px #ff2e63;
+}
+
+.timeline-card.cyan-border .tags span:hover {
+  background: #00f5ff;
+  color: #000;
+  box-shadow: 0 0 10px #00f5ff;
+}
+
 /* ROLE */
 .role {
   font-family: 'Space Grotesk', sans-serif;
