@@ -25,6 +25,9 @@ const Experience = () => {
               </p>
 
               <div className="tags">
+                <span>Agentic AI</span>
+                <span>LangChain</span>
+                <span>LangGraph</span>
                 <span>PYTHON</span>
                 <span>TABLEAU</span>
                 <span>SQL</span>
