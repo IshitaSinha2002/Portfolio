@@ -9,7 +9,217 @@ const Projects = () => {
 
         <div className="projects-list">
 
-          {/* ================= SECTION 1 ================= */}
+          {/* ================= SECTION 1: MAIN PROJECTS ================= */}
+          <div className="project-block">
+            <p className="project-category">— Main Projects</p>
+
+            <div className="project-row">
+
+              {/* CARD 1 */}
+              <div className="project-card pink">
+                <img src="/ArchLens.jpg" alt="ArchLens" />
+
+                <div className="project-content">
+                  <h3>ArchLens</h3>
+                  <p>
+                    AI-powered Architecture Review Board simulator that analyzes enterprise architectures using LangChain, LangGraph, and LLMs to generate governance reviews, risk assessments, architecture scorecards, and actionable recommendations.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/ArchLens", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+              {/* CARD 2 */}
+              <div className="project-card cyan-border">
+                <img src="/PrepAI.jpg" alt="PrepAI" />
+
+                <div className="project-content">
+                  <h3>PrepAI</h3>
+                  <p>
+                    AI-powered Interview Preparation System built using ReactJS, FastAPI, LangChain, and Groq LLM that generates a personalized career roadmap, schedules, and question-answering through structured AI outputs.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/PrepAI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+              {/* CARD 3 */}
+              <div className="project-card pink">
+                <img src="/ItineraAI.jpg" alt="ItineraAI" />
+
+                <div className="project-content">
+                  <h3>ItineraAI</h3>
+                  <p>
+                    AI-powered Travel Planner with a ReactJS frontend and FastAPI backend that generates personalized travel schedules using LangChain and Groq LLM through structured AI outputs.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/ItineraAI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* ================= SECTION 2: MULTI-AGENT SYSTEMS ================= */}
+          <div className="project-block">
+            <p className="project-category">— Multi-Agent Systems</p>
+
+            <div className="project-row">
+
+              {/* CARD 1 */}
+              <div className="project-card cyan-border">
+                <img src="/UniDecideAI.jpg" alt="UniDecide AI" />
+
+                <div className="project-content">
+                  <h3>UniDecide AI</h3>
+                  <p>
+                    AI-powered university selection committee built with LangChain and LangGraph, where multiple advisor agents evaluate universities from different perspectives and a final committee makes the recommendation.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/UniDecide-AI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+              {/* CARD 2 */}
+              <div className="project-card pink">
+                <img src="/MovieCouncil.jpg" alt="MovieCouncil" />
+
+                <div className="project-content">
+                  <h3>MovieCouncil</h3>
+                  <p>
+                    AI-powered movie recommendation system built using LangChain and LangGraph, where specialized agents evaluate movies from different perspectives before a final committee selects one recommendation.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/MovieCouncil", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+              {/* CARD 3 */}
+              <div className="project-card cyan-border">
+                <img src="/ResQAI.jpg" alt="ResQ-AI" />
+
+                <div className="project-content">
+                  <h3>ResQ-AI</h3>
+                  <p>
+                    Multi-agent disaster response system using LangChain and LangGraph, where specialized AI commanders coordinate emergency operations into a unified response plan.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/ResQ-AI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* ================= SECTION 3: WORKFLOWS ================= */}
+          <div className="project-block">
+            <p className="project-category">— Workflows</p>
+
+            <div className="project-row">
+
+              {/* CARD 1 */}
+              <div className="project-card pink">
+                <img src="/EscapeRoomSolverAI.jpg" alt="Escape Room Solver AI" />
+
+                <div className="project-content">
+                  <h3>Escape Room Solver AI</h3>
+                  <p>
+                    A stateful LLM workflow using LangChain and LangGraph that analyzes clues, tracks inventory and room state, and iteratively solves an escape room puzzle.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Escape-Room-Solver-AI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+              {/* CARD 2 */}
+              <div className="project-card cyan-border">
+                <img src="/LanguageLearnerAI.jpg" alt="Language Learner AI" />
+
+                <div className="project-content">
+                  <h3>Language Learner AI</h3>
+                  <p>
+                    A stateful LLM workflow using LangChain and LangGraph that generates personalized lessons, evaluates quizzes, tracks learner progress, and adapts future lessons over time.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Language-Learner-AI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* ================= SECTION 4: PLANNING SYSTEM ================= */}
+          <div className="project-block">
+            <p className="project-category">— Planning System</p>
+
+            <div className="project-row">
+
+              {/* CARD 1 */}
+              <div className="project-card pink">
+                <img src="/StartupBuilderAI.jpg" alt="StartupBuilder AI" />
+
+                <div className="project-content">
+                  <h3>StartupBuilder AI</h3>
+                  <p>
+                    A stateful LLM planning system using LangChain and LangGraph that transforms a startup idea into an MVP strategy, milestones, roadmap, hiring plan, and actionable execution plan.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Startup-Builder-AI", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* ================= SECTION 5: REFLECTION SYSTEM ================= */}
+          <div className="project-block">
+            <p className="project-category">— Reflection System</p>
+
+            <div className="project-row">
+
+              {/* CARD 1 */}
+              <div className="project-card cyan-border">
+                <img src="/PromptOptimizer.jpg" alt="Prompt Optimizer" />
+
+                <div className="project-content">
+                  <h3>Prompt Optimizer</h3>
+                  <p>
+                    An LLM-powered reflection system using LangChain and LangGraph that iteratively critiques and refines prompts to improve their clarity and effectiveness.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Prompt-Optimizer", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+              {/* CARD 2 */}
+              <div className="project-card pink">
+                <img src="/CodeReviewer.jpg" alt="Code Reviewer" />
+
+                <div className="project-content">
+                  <h3>Code Reviewer</h3>
+                  <p>
+                    An LLM-powered reflection system using LangChain and LangGraph that iteratively reviews and refines code until it meets defined quality checks.
+                  </p>
+                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Code-Reviewer", "_blank")}>
+  EXPLORE →
+</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* ================= SECTION 6: FULL STACK ML BASED WEB ================= */}
           <div className="project-block">
             <p className="project-category">— Full Stack ML based Web</p>
 
@@ -45,188 +255,12 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* CARD 3 */}
-              <div className="project-card pink">
-                <img src="/WattWise.jpg" alt="project" />
-
-                <div className="project-content">
-                    <h3>Watt Wise</h3>
-                    <p>
-                      Full-stack ML application that predicts energy consumption based on usage patterns and environmental factors using regression models.
-                    </p>
-                    <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Watt-Wise", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
             </div>
 
-            {/* CARD 4 */}
-              <div className="project-card cyan-border">
-                <img src="/FitPredict.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Fit Predict</h3>
-                  <p>
-                    Full-stack ML application that predicts calories burned based on fitness and workout data using regression models.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/FitPredict", "_blank")}>
-  EXPLORE →
-  </span>
-                </div>
-              </div>
-
-              {/* CARD 5 */}
-              <div className="project-card pink">
-                <img src="/EmployeeBurnout.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Employee Burnout</h3>
-                  <p>
-                    Full-stack ML application that predicts employee burnout levels based on work and lifestyle factors using classification models.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Employee-Burnout-Predictor", "_blank")}>EXPLORE →</span>
-                </div>
-              </div>
-
-            {/* CARD 6 */}
-              <div className="project-card cyan-border">
-                <img src="/SmartLingo.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Smart Lingo</h3>
-                  <p>
-                    Full-stack language translation web app built with React and Flask, enabling real-time multilingual translation using external APIs.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/SmartLingo", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-
-              {/* CARD 7 */}
-              <div className="project-card pink">
-                <img src="/CollegeAdmission.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>College Admission</h3>
-                  <p>
-                    Regression-based ML pipeline for admission prediction with feature scaling, multi-model comparison, evaluation metrics, and dynamic inference with user-defined college input.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/College-Admission-Prediction", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-
-            </div>
-            
           </div>
 
-          {/* ================= SECTION 2 ================= */}
+          {/* ================= SECTION 7: DASHBOARD ================= */}
           <div className="project-block">
-            <p className="project-category">— NLP</p>
-            <div className="project-row">
-            {/* CARD 1 */}
-              <div className="project-card pink">
-                <img src="/SentimentAnalysis.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Sentiment Analysis</h3>
-                  <p>
-                    NLP-based sentiment analysis model that classifies tweets using TF-IDF and Logistic Regression with visualization and evaluation.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Twitter-Sentiment-Analysis", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-
-              {/* CARD 2 */}
-              <div className="project-card cyan-border">
-                <img src="/EmotionDetector.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Emotion Detection</h3>
-                  <p>
-                    Multi-class NLP model for emotion classification using TF-IDF and Logistic Regression with visualization and evaluation.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Emotion-Detection", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-
-              {/* CARD 3 */}
-              <div className="project-card pink">
-                <img src="/FakeNews.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Fake News Detector</h3>
-                  <p>
-                    NLP-based fake news classification model using TF-IDF and Logistic Regression with visualization and evaluation.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Fake-News-Detector", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-
-              {/* CARD 4 */}
-              <div className="project-card cyan-border">
-                <img src="/NewsTopic.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>News Topic Classifier</h3>
-                  <p>
-                    Multi-class NLP model for news classification using TF-IDF and Logistic Regression with visualization and evaluation.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/News-Topic-Classifier", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* ================= SECTION 3 ================= */}
-          <div className="project-block">
-            <p className="project-category">— Full Stack MERN based Web App</p>
-
-            <div className="project-row">
-
-              {/* CARD 1 */}
-              <div className="project-card pink">
-                <img src="/TravelNest.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Travel Nest</h3>
-                  <p>
-                    Full-stack hotel booking application built using the MERN stack.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/TravelNest", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-
-                {/* CARD 2 */}
-              <div className="project-card cyan-border">
-                <img src="/Chatify.jpg" alt="project" />
-
-                <div className="project-content">
-                  <h3>Chatify</h3>
-                  <p>
-                    Full-stack real-time chat application built using the MERN stack and Firebase that enables seamless messaging, user authentication, and live data synchronization.
-                  </p>
-                  <span className="project-link" onClick={() => window.open("https://github.com/IshitaSinha2002/Chatify", "_blank")}>
-  EXPLORE →
-</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        {/* ================= SECTION 4 ================= */}
-        <div className="project-block">
             <p className="project-category">— Dashboard</p>
 
             <div className="project-row">
@@ -247,6 +281,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
         </div>
 
       </div>
