@@ -9,38 +9,15 @@ const Skills = () => {
 
         <div className="skills-grid">
 
-          {/* LANGUAGES */}
+          {/* AI/LLM FRAMEWORK */}
           <div className="skill-card pink">
-            <h3>Languages</h3>
+            <h3>AI/LLM Framework</h3>
             <div className="tags">
-              <span>PYTHON</span>
-              <span>SQL</span>
-              <span>JAVA</span>
-              <span>JAVASCRIPT</span>
-            </div>
-          </div>
-
-          {/* DATA VISUALIZATION */}
-          <div className="skill-card cyan-border">
-            <h3>Data Visualization</h3>
-            <div className="tags">
-              <span>TABLEAU</span>
-              <span>POWER BI</span>
-              <span>MATPLOTLIB</span>
-              <span>SEABORN</span>
-            </div>
-          </div>
-
-          {/* DATA ANALYSIS */}
-          <div className="skill-card pink">
-            <h3>Data Analysis</h3>
-            <div className="tags">
-              <span>PANDAS</span>
-              <span>NUMPY</span>
-              <span>EXCEL</span>
-              <span>EDA</span>
-              <span>TABLEAU PREP BUILDER</span>
-              <span>POWER QUERY</span>
+              <span>LANGCHAIN</span>
+              <span>LANGGRAPH</span>
+              <span>CREWAI</span>
+              <span>GROQ</span>
+              <span>RAG</span>
             </div>
           </div>
 
@@ -55,8 +32,43 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* DATABASES */}
+          {/* DATA VISUALIZATION */}
           <div className="skill-card pink">
+            <h3>Data Visualization</h3>
+            <div className="tags">
+              <span>TABLEAU</span>
+              <span>POWER BI</span>
+              <span>MATPLOTLIB</span>
+              <span>SEABORN</span>
+            </div>
+          </div>
+
+          {/* DATA ANALYSIS */}
+          <div className="skill-card cyan-border">
+            <h3>Data Analysis</h3>
+            <div className="tags">
+              <span>PANDAS</span>
+              <span>NUMPY</span>
+              <span>EXCEL</span>
+              <span>EDA</span>
+              <span>TABLEAU PREP BUILDER</span>
+              <span>POWER QUERY</span>
+            </div>
+          </div>
+
+          {/* LANGUAGES */}
+          <div className="skill-card pink">
+            <h3>Languages</h3>
+            <div className="tags">
+              <span>PYTHON</span>
+              <span>SQL</span>
+              <span>JAVA</span>
+              <span>JAVASCRIPT</span>
+            </div>
+          </div>
+
+          {/* DATABASES */}
+          <div className="skill-card cyan-border">
             <h3>Databases</h3>
             <div className="tags">
               <span>MYSQL</span>
@@ -66,7 +78,7 @@ const Skills = () => {
           </div>
 
           {/* TOOLS */}
-          <div className="skill-card cyan-border">
+          <div className="skill-card pink">
             <h3>Tools & Platform</h3>
             <div className="tags">
               <span>GITHUB</span>
@@ -78,7 +90,7 @@ const Skills = () => {
           </div>
 
           {/* FRAMEWORK */}
-          <div className="skill-card pink">
+          <div className="skill-card cyan-border">
             <h3>Framework & Automation</h3>
             <div className="tags">
               <span>REACTJS</span>
